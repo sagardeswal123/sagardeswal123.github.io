@@ -1,0 +1,8 @@
+.skillbadge {
+    transition: transform 0.5s ease;
+  }
+  
+  .skillbadge:hover {
+    transform: scale(1.2);
+  }
+  
