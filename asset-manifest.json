@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f3679b4.css",
-    "main.js": "/static/js/main.1cbfa248.js",
+    "main.css": "/static/css/main.290ebf73.css",
+    "main.js": "/static/js/main.0aba8aff.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Alpha.png": "/static/media/Alpha.52fea0427691ebf36745.png",
     "static/media/FitQuest.png": "/static/media/FitQuest.5f59fee8cda8417bced6.png",
     "static/media/Sagar.png": "/static/media/Sagar.25d617301649f3b5fa6e.png",
     "static/media/booking.jpg": "/static/media/booking.12ee3ca9fca4280ab78b.jpg",
+    "static/media/css.png": "/static/media/css.015d4e7819fe71e19c25.png",
     "static/media/QuickLoan.png": "/static/media/QuickLoan.24203b4c6bd1993d5c60.png",
     "static/media/logo.png": "/static/media/logo.ac6cd7c781831bb3ece5.png",
+    "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "index.html": "/index.html",
-    "main.9f3679b4.css.map": "/static/css/main.9f3679b4.css.map",
-    "main.1cbfa248.js.map": "/static/js/main.1cbfa248.js.map",
+    "main.290ebf73.css.map": "/static/css/main.290ebf73.css.map",
+    "main.0aba8aff.js.map": "/static/js/main.0aba8aff.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f3679b4.css",
-    "static/js/main.1cbfa248.js"
+    "static/css/main.290ebf73.css",
+    "static/js/main.0aba8aff.js"
   ]
 }
