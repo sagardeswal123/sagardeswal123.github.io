@@ -1,0 +1,20 @@
+.svg {
+    width: 350px;
+  }
+  
+  .container {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    height: 30%;
+    justify-content: center;
+  }
+  
+  @media (min-width: 100px) and (max-width: 400px) {
+    .svg {
+      width: 150px;
+    }
+    .container{
+      height: 15%;
+    }
+  }

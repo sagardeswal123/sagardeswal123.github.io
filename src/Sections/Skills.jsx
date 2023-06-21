@@ -1,6 +1,16 @@
 import { Box, Grid, GridItem, Text } from "@chakra-ui/react";
 import React from "react";
 import SkillCard from "../components/SkillCard";
+import html from "../Images/Skills/html.png";
+import css from "../Images/Skills/css.png";
+import javaScript from "../Images/Skills/javaScript.png";
+import reactIcon from "../Images/Skills/react.png"
+import reduxIcon from "../Images/Skills/redux.png"
+import mongodb from "../Images/Skills/mongodb.png"
+import chakraIcon from "../Images/Skills/Chakra.png"
+import express from "../Images/Skills/express.png"
+import nodeIcon from "../Images/Skills/node.png"
+import typescript from "../Images/Skills/typescript.png"
 
 function Skills() {
   return (
@@ -46,34 +56,34 @@ function Skills() {
             gap={6}
           >
             <GridItem w="100%">
-              <SkillCard icon={"html-1.png"} text={"HTML"} />
+              <SkillCard icon={html} text={"HTML"} />
             </GridItem>
             <GridItem w="100%">
-              <SkillCard icon={"css-3.png"} text={"CSS"} />
+              <SkillCard icon={css} text={"CSS"} />
             </GridItem>
             <GridItem w="100%">
-              <SkillCard icon={"javascript.png"} text={"Javascript"} />
+              <SkillCard icon={javaScript} text={"Javascript"} />
             </GridItem>
             <GridItem w="100%">
-              <SkillCard icon={"react.png"} text={"React"} />
+              <SkillCard icon={reactIcon} text={"React"} />
             </GridItem>
             <GridItem w="100%">
-              <SkillCard icon={"redux.png"} text={"Redux"} />
+              <SkillCard icon={reduxIcon} text={"Redux"} />
             </GridItem>
             <GridItem w="100%">
-              <SkillCard icon={"chakra.png"} text={"Chakra"} />
+              <SkillCard icon={chakraIcon} text={"Chakra"} />
             </GridItem>
             <GridItem w="100%">
-              <SkillCard icon={"mongodb.png"} text={"MongoDB"} />
+              <SkillCard icon={mongodb} text={"MongoDB"} />
             </GridItem>
             <GridItem w="100%">
-              <SkillCard icon={"Typescript.png"} text={"TypeScript"} />
+              <SkillCard icon={typescript} text={"TypeScript"} />
             </GridItem>
             <GridItem w="100%">
-              <SkillCard icon={"express.png"} text={"Express"} />
+              <SkillCard icon={express} text={"Express"} />
             </GridItem>
             <GridItem w="100%">
-              <SkillCard icon={"nodejs.png"} text={"NodeJS"} />
+              <SkillCard icon={nodeIcon} text={"NodeJS"} />
             </GridItem>
           </Grid>
         </Box>

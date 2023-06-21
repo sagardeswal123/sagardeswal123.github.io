@@ -2,12 +2,14 @@ import { useEffect } from "react";
 // import About from "./About";
 
 // import Contacts from "./Contacts";
-// import GithubStats from "./GithubStats";
 import Home from "./Home";
 import Navbar from "../components/Navbar";
 import Projects from "./Projects";
 import { Box, Text } from "@chakra-ui/react";
 import Skills from "./Skills";
+import GithubStats from "./GithubStats/GithubStats";
+import About from "./About/About";
+import Contact from "./Contact";
 // import { BsBalloonHeartFill } from "react-icons/bs";
 function Main() {
   useEffect(() => {
@@ -29,11 +31,11 @@ function Main() {
           <Navbar onClick={(e) => scrollToSection(e)} />
         </div>
         <Home/>
-        {/* <About /> */}
+        <About />
         <Skills />
         <Projects />
-        {/* <GithubStats /> */}
-        {/* <Contacts /> */}
+        <GithubStats />
+        <Contact />
         <Box
           h="50px"
           bg="rgb(119, 143, 187)"

@@ -18,7 +18,7 @@ const ProjectCard = ({title,discription,jsIcon,htmlIcon,cssIcon,githubUrl,netlif
         window.open(githubUrl)
       }
   return (
-    <div id="projects">
+    <div >
         <Stack
           className="project-card"
           minH={"50vh"}

@@ -146,7 +146,7 @@ function Navbar() {
             </Link>
             {/* <Spacer /> */}
 
-            <Link
+            {/* <Link
               to="stats"
               spy={true}
               smooth={true}
@@ -160,7 +160,7 @@ function Navbar() {
               >
                 Github Stats
               </Button>
-            </Link>
+            </Link> */}
             {/* <Spacer /> */}
 
             <Link
@@ -307,7 +307,7 @@ const MobNavbar=()=> {
                       </Button>
                     </Link>
                   </Box>
-                  <Box width="100%">
+                  {/* <Box width="100%">
                     <Link
                       to="stats"
                       spy={true}
@@ -324,7 +324,7 @@ const MobNavbar=()=> {
                         Github stats
                       </Button>
                     </Link>
-                  </Box>
+                  </Box> */}
                   <Box width="100%">
                     <Link
                       to="contact"

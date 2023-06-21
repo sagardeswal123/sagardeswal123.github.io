@@ -5,6 +5,7 @@ import { Box, Image, Text } from "@chakra-ui/react";
 // import LightSpeed from "react-reveal/LightSpeed";
 import Sagar from "../Images/Sagar.png"
 import Slide from "react-reveal/Slide";
+import Hello from "../components/Hello/Hello";
 
 function Home() {
   return (
@@ -43,7 +44,7 @@ function Home() {
               justifyContent={{ base: "center" }}
             >
               <Image
-                width={{ base: "40%", sm: "35%", md: "65%", lg: "80%" }}
+                width={{ base: "30%", sm: "25%", md: "55%", lg: "65%" }}
                 className="home-img"
                 src={Sagar}
                 borderRadius={"50%"}
@@ -62,7 +63,7 @@ function Home() {
           textAlign={{ lg: "center", xl: "center" }}
           mt={{ md: "35px", lg: "25px", xl: "0px" }}
         >
-          {/* <Hello /> */}
+          <Hello />
 
           <Slide left>
             <Text
