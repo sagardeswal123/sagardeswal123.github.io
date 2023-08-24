@@ -47,6 +47,7 @@ const Projects = () => {
           githubUrl="https://github.com/izhar100/festive-crayon-1023"
           netlifyUrl="https://fitquests.netlify.app/"
           banner={FitQuest}
+          
         />
         <ProjectCard 
           title="Quick Loan"
@@ -77,6 +78,9 @@ const Projects = () => {
           githubUrl="https://github.com/Vchandankumarr/smart-sign-7322"
           netlifyUrl="https://symphonious-lebkuchen-33f9c1.netlify.app/"
           banner={Alpha}
+          text1="JavaScript"
+          text2="HTML"
+          text3="CSS"
         />
         {/* <Github/>
         <GithubStreak/>

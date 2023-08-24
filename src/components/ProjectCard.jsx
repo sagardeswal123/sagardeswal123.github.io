@@ -10,7 +10,7 @@ import {
     Link,
     Icon
   } from "@chakra-ui/react";
-const ProjectCard = ({title,discription,jsIcon,htmlIcon,cssIcon,githubUrl,netlifyUrl,banner}) => {
+const ProjectCard = ({title,discription,jsIcon,htmlIcon,cssIcon,githubUrl,netlifyUrl,banner,text1="React",text2="Chakra-UI",text3="Netlify"}) => {
     const handleLive=()=>{
         window.open(netlifyUrl)
       }
@@ -55,6 +55,7 @@ const ProjectCard = ({title,discription,jsIcon,htmlIcon,cssIcon,githubUrl,netlif
                 style={{ display: "flex", columnGap: "20px" }}
                 className="project-tech-stack"
               >
+                <Flex w={"80px"} display={"column"} >
                 <Icon
                   as={jsIcon}
                   style={{
@@ -64,6 +65,10 @@ const ProjectCard = ({title,discription,jsIcon,htmlIcon,cssIcon,githubUrl,netlif
                     borderRadius: "10px",
                   }}
                 />
+                <Text>{text1}</Text>
+                </Flex>
+                
+                <Flex w={"80px"} display={"column"} >
                 <Icon
                  as={htmlIcon}
                   style={{
@@ -73,6 +78,9 @@ const ProjectCard = ({title,discription,jsIcon,htmlIcon,cssIcon,githubUrl,netlif
                     borderRadius: "10px",
                   }}
                 />
+                <Text>{text2}</Text>
+                </Flex>
+                <Flex w={"80px"} display={"column"} >
                 <Icon
                  as={cssIcon}
                   style={{
@@ -82,7 +90,10 @@ const ProjectCard = ({title,discription,jsIcon,htmlIcon,cssIcon,githubUrl,netlif
                     borderRadius: "10px",
                   }}
                 />
+                <Text>{text3}</Text>
+                </Flex>
               </div>
+              
               <Stack direction={{ base: "column", md: "row" }} spacing={8}>
                 <Button
                  className="project-deployed-link"
