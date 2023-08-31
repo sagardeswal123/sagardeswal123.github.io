@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c88b722d.css",
-    "main.js": "/static/js/main.16c489f6.js",
+    "main.js": "/static/js/main.d80c15fa.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Alpha.png": "/static/media/Alpha.52fea0427691ebf36745.png",
     "static/media/FitQuest.png": "/static/media/FitQuest.5f59fee8cda8417bced6.png",
@@ -10,6 +10,7 @@
     "static/media/Chakra.png": "/static/media/Chakra.7ae684cbf2377dc048fe.png",
     "static/media/css.png": "/static/media/css.015d4e7819fe71e19c25.png",
     "static/media/javaScript.png": "/static/media/javaScript.83903b30822753b81ed1.png",
+    "static/media/netlify.png": "/static/media/netlify.1aa9d38d068f87785568.png",
     "static/media/QuickLoan.png": "/static/media/QuickLoan.24203b4c6bd1993d5c60.png",
     "static/media/redux.png": "/static/media/redux.b426d97de12d4dab1c06.png",
     "static/media/logo.png": "/static/media/logo.ac6cd7c781831bb3ece5.png",
@@ -20,11 +21,11 @@
     "static/media/express.png": "/static/media/express.9b344d7469dbbdc76754.png",
     "index.html": "/index.html",
     "main.c88b722d.css.map": "/static/css/main.c88b722d.css.map",
-    "main.16c489f6.js.map": "/static/js/main.16c489f6.js.map",
+    "main.d80c15fa.js.map": "/static/js/main.d80c15fa.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c88b722d.css",
-    "static/js/main.16c489f6.js"
+    "static/js/main.d80c15fa.js"
   ]
 }
