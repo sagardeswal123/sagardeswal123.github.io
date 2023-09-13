@@ -8,9 +8,13 @@ import reactIcon from "../Images/Skills/react.png"
 import reduxIcon from "../Images/Skills/redux.png"
 import mongodb from "../Images/Skills/mongodb.png"
 import chakraIcon from "../Images/Skills/Chakra.png"
-import express from "../Images/Skills/express.png"
+import express from "../Images/Skills/express.png";
+import Tools from "./Tools";
+
+
 import nodeIcon from "../Images/Skills/node.png"
 import typescript from "../Images/Skills/typescript.png"
+// import SkillBox from "../components/SkillBox";
 
 function Skills() {
   return (
@@ -27,7 +31,16 @@ function Skills() {
         className="skill-image-box"
         fontSize={{ base: "4xl", lg: "6xl" }}
       >
-        Skills{" "}
+        Skills{" "}& Tools
+      </Text>
+      <Text
+        mt="20px"
+        color="black"
+        textAlign={"center"}
+        className="skill-image-box"
+        fontSize={{ base: "2xl", lg: "4xl" }}
+      >
+        Skills
       </Text>
       <Box
         border={"1px solid whit"}
@@ -36,8 +49,8 @@ function Skills() {
         justifyContent={{ base: "center" }}
         alignItems={{ base: "center" }}
         w={{ lg: "80%" }}
-        m={{ lg: "20px auto" }}
-        pt={{ lg: "50px" }}
+        m={{ lg: "5px auto 20px auto" }}
+        pt={{ lg: "10px" }}
         pb={{ base: "30px" }}
       >
         <Box
@@ -102,6 +115,7 @@ function Skills() {
           </Text>
         </Box> */}
       </Box>
+      <Tools/>
       {/* <Box
         display={"flex"}
         flexDirection={{ base: "column", lg: "row" }}
@@ -145,19 +159,19 @@ function Skills() {
             gap={6}
           >
             <GridItem w="100%">
-              <SkillBox icon={"git.png"} text={"Git"} />
+              <SkillBox icon={git} text={"Git"} />
             </GridItem>
             <GridItem w="100%">
-              <SkillBox icon={"github-1.png"} text={"Github"} />
+              <SkillBox icon={github} text={"Github"} />
             </GridItem>
             <GridItem w="100%">
-              <SkillBox icon={"netlify.png"} text={"Netlify"} />
+              <SkillBox icon={netlify} text={"Netlify"} />
             </GridItem>
             <GridItem w="100%">
-              <SkillBox icon={"vercel.png"} text={"Vercel"} />
+              <SkillBox icon={vercel} text={"Vercel"} />
             </GridItem>
             <GridItem w="100%">
-              <SkillBox icon={"postman-icon.png"} text={"Postman"} />
+              <SkillBox icon={postman} text={"Postman"} />
             </GridItem>
           </Grid>
         </Box> */}
